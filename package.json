@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "run-android":"react-native run-andoid",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
@@ -13,7 +12,9 @@
     "native-base": "^2.10.0",
     "react": "16.6.3",
     "react-native": "0.58.3",
-    "react-router-native": "^4.3.0"
+    "react-native-vector-icons": "^6.2.0",
+    "react-router-native": "^4.3.0",
+    "react-timer-mixin": "^0.13.4"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
