@@ -1,17 +1,22 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {Text, View} from "native-base";
+import {Navigator, StyleSheet} from "react-native";
+import {View} from "native-base";
+
 
 class Sidebar extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
-            <View>
-                <Text>sidebar</Text>
-            </View>
+            <View></View>
         );
     }
 }
 
 Sidebar.propTypes = {};
+
+const styles = StyleSheet.create({});
 
 export default Sidebar;

@@ -36,9 +36,7 @@ class Footer extends React.Component {
     }
 
     handlePress = (url) => {
-        console.log(url);
-        myHistory.push({pathname: url});
-        console.log(this)
+        myHistory.replace({pathname: url});
     };
 }
 
